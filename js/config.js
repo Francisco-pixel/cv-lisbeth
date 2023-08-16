@@ -2,7 +2,7 @@ const c = console,
     d = document,
     $ = a => d.querySelector(a),
     $all = a => d.querySelectorAll(a),
-    JSON = `https://raw.githubusercontent.com/Francisco-pixel/curriculum/main/data/data.json`,
+    JSON = `https://raw.githubusercontent.com/Francisco-pixel/cv-lisbeth/main/data/data.json`,
     intervalTime = 3*1000;
 
 const OBTENER_API = async () => {
