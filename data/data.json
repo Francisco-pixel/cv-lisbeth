@@ -1,0 +1,53 @@
+{
+    "img": "./img/foto.png",
+    "nombre": "Lisbeth Madariaga",
+    "cargo": "Comunicadora Social",
+    "perfil": "Mucho gusto, soy comunicadora social nacida en Caracas Venezuela,me encanta escribir, indagar e innovar, estoy dispuesta a laborar en esta institución y aportar mis conocimientos en el área de comunicación para el logro de los objetivos propuestos",
+    "contacto": [
+        "(829) 982-8788",
+        "lismadariaga1@gmail.com",
+        "Av. Independencia, Santo Domingo, República Dominicana"
+    ],
+    "estudios": [
+        "Community Manager, (Marumoret)",
+        "Súper Taller de Redes Sociales (Marumoret)"
+    ],
+    "profesión": [
+        "Universidad Santa María 2004 - 2009 Lic.En Comunicación Social Mención: Corporativa",
+        "Universidad Santa María 2011 - 2012 Especialista en Publicidad y Mercadeo"
+    ],
+    "idiomas": [
+        "Español",
+        "Inglés intermedio"
+    ],
+    "experiencia_laboral": [
+        {
+            "empresa": "Coffee Break Media Agency & CAESCO",
+            "anio": "2020-2021",
+            "cargo": "Creadora de contenido",
+            "desc":"Estrategia de contenidos para redes sociales de la agencia, propuesta para clientes, recepción de medios, fotografía, edición de video y eventos."
+        },
+        {
+            "empresa": "Sursport",
+            "anio": "2020-2021",
+            "cargo": "Asistente de Mercadeo Junior",
+            "desc":"Monitoreo de las Redes Sociales, facilitar contenido a la Community Manager con la mercancía disponible en tiendas. Elaboración de reporte de ventas e inventario, cotización, actualización de catálogos de las tiendas Nike y Sporto."
+        },
+        {
+            "empresa": "Revistas cigarro y golf PIGAT S.R.L",
+            "anio": "2018-2019",
+            "cargo": "Asistente General",
+            "desc":"Labores administrativas haciendo el cierre de ventas y registro de gastos mayores y menores mensual, el registro de los proveedores informales para el envío a contabilidad, solicitud de las autorizaciones de pago correspondientes para el ITBIS, IR-17, facturación a clientes, cobro de facturas, solicitud de artes y seguimiento, apoyo en los eventos de la empresa, búsqueda de información para las entrevistas y redacción de reportajes para las revistas de la empresa, así como la administración de las cuentas de twitter de ambas revistas."
+        },
+        {
+            "empresa": "Havas Media Venezuela",
+            "anio": "2015-2016 / 2016-2017",
+            "cargo":"Ejecutiva de Investigación / Ejecutiva de Medios",
+            "desc":"Análisis del consumidor a través de herramientas de estudio, elaborar planes de medios, seguimiento y elaboración de reportes de campañas."
+        }
+    ],
+    "habilidades_profesionales": [
+        "Illustrator",
+        "Canva"
+    ]
+}

@@ -1,0 +1,197 @@
+:root{
+    --bg-cv-left:hsl(311 41% 45%);
+    --color-title:hsl(52 37% 46%);
+    --blanco:hsl(0 0% 100%);
+    --blanco-80:hsl(0 0% 95%);
+    --gris-40:hsl(0 0% 40%);
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:clamp(.8rem,4vw,1rem);
+}
+ul{
+    list-style:none;
+}
+img{
+    width:100%;
+    height:100%;
+    vertical-align:middle;
+}
+body{
+    height:100%;
+    display:grid;
+    place-items:center;
+}
+.cv{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    width:100%;
+    max-width:54rem;
+}
+.cv :is(.cv__left,.cv__right){
+    padding:1rem;
+    display:grid;
+    gap:1em;
+    place-content:start;
+}
+.cv__left{
+    grid-column: span 1;
+    background-color:var(--bg-cv-left);
+    /* height:100vh; */
+}
+.cv__right{
+    grid-column: span 2;
+    place-items:start;
+    height:100%;
+}
+.cv__left-img{
+    display:grid;
+    place-items:center;
+}
+.cv__left-img :is(.img){
+    cursor: pointer;
+}
+.cv__left-img >:is(div){
+    border:.1em solid var(--blanco-80);
+    padding:.5em;
+    width:7em;
+    border-radius:50%;
+    aspect-ratio:1;
+}
+.cv__left-img :is(.img){
+    border-radius:50%;
+    object-fit:cover;
+    background-color:#fff;
+}
+.left__info {
+    display:grid;
+    gap:.5em;
+}
+.left__info :is(ul){
+    --p-left:1em;
+    border-left:.01em solid var(--blanco-80);
+    margin-left: .5em;
+    padding-left: 1em;
+    display:grid;
+    gap:1em;
+}
+.left__info :is(li){
+    position:relative;
+}
+/* Viñetas */
+.left__info :is(li)::before{
+    position:absolute;
+    content:'';
+    left:-1.7em;
+    width:.8em;
+    aspect-ratio:1;
+    background-color:var(--bg-cv-left);
+    border-radius:50%;
+    border: 0.01em solid var(--blanco-80);
+}
+.left__info :is(:not(li:last-child,li:first-child))::before{
+    top:50%;
+    transform:translateY(-50%);
+}
+.left__info :is(li:last-child)::before{
+    bottom:0;
+}
+.left__info :is(h2,p){
+    text-align:center;
+}
+.left__info :is(h2){
+    color:var(--blanco);
+}
+.left__info :is(p,li){
+    color:var(--blanco-80);
+    font-size:.8em;
+}
+.left__info :is(h3){
+    color:var(--blanco);
+    text-transform: capitalize;
+}
+
+.right__info :is(h3){
+    text-transform: capitalize;
+}
+.right__info :is(.titulo,.cargo){
+    color:var(--color-title);
+    margin-bottom:1em;
+}
+.right__info :is(.cargo){
+    font-weight: 600;
+}
+.cv__right :is(p,li){
+    font-size: .8em;
+    color:var(--gris-40);
+}
+.habilidades_profesionales{
+    display:flex;
+    flex-wrap: wrap;
+    gap:1em;
+}
+.habilidades_profesionales :is(li){
+    padding:1em;
+    border:0.3em solid hsl(0 0% 80%);
+    border-radius:.5em;
+    transition:all .3s ease;
+    font-weight: 600;
+}
+
+/* Estilos compartidos */
+
+/* Modificadores */
+.grid{display: grid;}
+.centrar--item{
+    display: flex; 
+    justify-content:start;
+    align-items:center;
+}
+.gap--1{gap:1em;}
+/* Modificadores de columnas */
+.col--1{grid-template-columns:repeat(1,1fr);}
+.col--2{grid-template-columns:repeat(2,1fr);}
+.col--3{grid-template-columns:repeat(3,1fr);}
+.col--4{grid-template-columns:repeat(4,1fr);}
+.col--5{grid-template-columns:repeat(5,1fr);}
+.col--6{grid-template-columns:repeat(6,1fr);}
+.col--7{grid-template-columns:repeat(7,1fr);}
+.col--8{grid-template-columns:repeat(8,1fr);}
+.col--9{grid-template-columns:repeat(9,1fr);}
+.col--10{grid-template-columns:repeat(10,1fr);}
+.col--11{grid-template-columns:repeat(11,1fr);}
+.col--12{grid-template-columns:repeat(12,1fr);}
+/* Modificadores de filas */
+.row--1{grid-row:span 1;}
+.row--2{grid-row:span 2;}
+.row--3{grid-row:span 3;}
+.row--4{grid-row:span 4;}
+.row--5{grid-row:span 5;}
+.row--6{grid-row:span 6;}
+.row--7{grid-row:span 7;}
+.row--8{grid-row:span 8;}
+.row--9{grid-row:span 9;}
+.row--10{grid-row:span 10;}
+.row--11{grid-row:span 11;}
+.row--12{grid-row:span 12;}
+/* Span */
+.span--1{grid-column:span 1;}
+.span--2{grid-column:span 2;}
+.span--3{grid-column:span 3;}
+.span--4{grid-column:span 4;}
+.span--5{grid-column:span 5;}
+.span--6{grid-column:span 6;}
+.span--7{grid-column:span 7;}
+.span--8{grid-column:span 8;}
+.span--9{grid-column:span 9;}
+.span--10{grid-column:span 10;}
+.span--11{grid-column:span 11;}
+.span--12{grid-column:span 12;}
+@media (width<=550px){
+    .cv{
+        grid-template-columns:repeat(1,1fr);
+    }
+}
