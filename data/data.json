@@ -9,6 +9,7 @@
         "Av. Independencia, Santo Domingo, República Dominicana"
     ],
     "estudios": [
+        "Diplomado en Comunicación Estratégica en Salud (INFOTEP-CIPESA)",
         "Community Manager, (Marumoret)",
         "Súper Taller de Redes Sociales (Marumoret)"
     ],
@@ -21,6 +22,12 @@
         "Inglés intermedio"
     ],
     "experiencia_laboral": [
+        {
+            "empresa": "INKUA (ONG)",
+            "anio": "2023",
+            "cargo": "Mánager de Comunicación Interna",
+            "desc":"Mantener actualizados documentos clave como el manual de gestión de crisis y el organigrama, gestionar la bienvenida a nuevos miembros, colaborar en proyectos de auditoría de comunicación, supervisar líderes de área y proyectos, y generar informes detallados para respaldar decisiones estratégicas."
+        },
         {
             "empresa": "Coffee Break Media Agency & CAESCO",
             "anio": "2020-2021",
