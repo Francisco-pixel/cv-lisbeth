@@ -28,9 +28,10 @@ async function mostrarInfoLeft() {
     HEAD_TITLE(DATA.nombre);
     mostrarTitulos(TITULOS);
     const INFO_PRINCIPAL=splitJson(0,3);
-    const INFO_ACADEMICO_Y_PROFESIONAL=splitJson(4,7);
-    const EXPERIENCIA_LABORAL=splitJson(8,8);
-    const HABILIDADES_PROFESIONALES=splitJson(9,9);
+    const INFO_ACADEMICO_Y_PROFESIONAL=splitJson(4,8);
+    const REFERENCIAS_LABORALES=splitJson(8,8);
+    const EXPERIENCIA_LABORAL=splitJson(9,9);
+    const HABILIDADES_PROFESIONALES=splitJson(10,10);
     function splitJson(desde,hasta){
         if(hasta<desde){
             c.log(`%cEl índice ${hasta} debe ser mayor o igual a ${desde}`,'color:red; font-size:1rem;');
