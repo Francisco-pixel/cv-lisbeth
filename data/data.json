@@ -27,6 +27,12 @@
     ],
     "experiencia_laboral": [
         {
+            "empresa": "AF Comunicación Estratégica",
+            "anio": "2024",
+            "cargo": "Ejecutiva de Cuentas",
+            "desc":"Actualizar bitácoras de clientes, seguimiento a los contenidos de redes sociales, desarrollo de plan de relaciones públicas, desarrollo de concepto de campañas publicitarias, redacción y  revisión de material comunicacional como: trípticos, cartas, notas de prensa, entre otros."
+        },
+        {
             "empresa": "INKUA (ONG)",
             "anio": "2023",
             "cargo": "Mánager de Comunicación Interna",
